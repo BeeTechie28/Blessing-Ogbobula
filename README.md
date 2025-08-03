@@ -25,21 +25,26 @@ Font Awesome: Integrated for a comprehensive library of professional icons.
 ✅ Prerequisites
 
 You only need a modern web browser to view this project.
+
 📥 Installation
+
 Clone the repository:
-git clone https://github.com/BeeTechie28/B-TeCH-Portfolio-.git
+
+https://github.com/BeeTechie28/Blessing-Ogbobula
 
 Navigate to the project directory:
+
 cd B-TeCH-Portfolio-
 
 Open the index.html file:
+
 Simply double-click the index.html file, or
 Drag and drop the file into your preferred web browser.
 
 
 🔗 Live Demo
 
-👉 View Live Portfolio
+👉 View Live Portfolio here : https://github.com/BeeTechie28/Blessing-Ogbobula
 
 📞 Contact
 
@@ -47,7 +52,7 @@ Name: Blessing Ogbobula
 
 Email: izikogbobula@gmail.com
 
-LinkedIn: Blessing Ogbobula on LinkedIn
+LinkedIn: https://www.linkedin.com/feed/
 
 GitHub: BeeTechie28
 
