@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B-TeCH | Professional Portfolio</title>
+    <!-- The Font Awesome link for professional icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/png" href="Images/favicon.png">
+    
+    <!-- Link to the external stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Anchor to the very top of the page for the "back to top" link -->
+    <a id="top"></a>
+
+    <!--
+    ======================================
+    HEADER AND NAVIGATION
+    ======================================
+    -->
+    <header>
+        <div class="nav-container container">
+            <a href="#hero" class="logo">B-TeCH<span class="logo-dot">.</span></a>
+            
+            <!-- Hidden checkbox for the mobile menu toggle -->
+            <input type="checkbox" id="menu-toggle" class="menu-toggle" aria-controls="nav-list" aria-label="Toggle navigation menu">
+            
+            <!-- Label for the mobile menu button -->
+            <label for="menu-toggle" class="mobile-menu-btn" aria-label="Open navigation menu">
+                <i class="fas fa-bars"></i>
+            </label>
+
+            <ul id="nav-list" class="nav-list">
+                <li><a href="#about" aria-label="About Me">About</a></li>
+                <li><a href="#education" aria-label="My Education">Education</a></li>
+                <li><a href="#interests" aria-label="My Interests">Interests</a></li>
+                <li><a href="#projects" aria-label="My Projects">Projects</a></li>
+                <li><a href="#contact" class="contact-btn" aria-label="Contact Me">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Main content area -->
+    <main>
+
+        <!--
+        ======================================
+        HERO SECTION
+        ======================================
+        -->
+        <section id="about" class="hero-section container">
+            <h2 class="section-subtitle">
+                <i class="fas fa-hand-spock"></i> About Me
+            </h2>
+            <div class="hero-title-wrapper">
+                <h1 class="hero-title" data-text="CREATIVE WEB DEVELOPER">
+                    CREATIVE WEB DEVELOPER
+                </h1>
+            </div>
+            
+            <!-- Profile Picture -->
+            <div class="profile-pic-container">
+                <img src="Images/profile-pic.png" 
+                     alt="Profile Picture of Blessing" >
+            </div>
+
+            <!-- Bio -->
+            <div class="bio">
+                <h3>Hello, I'm Blessing.</h3>
+                <p>
+                    I'm a web developer specializing in building and designing exceptional digital experiences. 
+                    I'm passionate about creating clean, elegant, and functional websites that solve real-world problems.
+                </p>
+                <a href="#contact" class="action-btn" aria-label="Let's get in touch">
+                    Let's Talk &rarr;
+                </a>
+            </div>
+        </section>
+
+        <!--
+        ======================================
+        SKILLS SECTION
+        ======================================
+        -->
+        <section id="skills" class="skills-section container">
+            <div class="skills-box">
+                <h3 class="skills-heading">MY AMAZING SKILLS</h3>
+                <div class="skills-container">
+                    <!-- Skill 1: HTML -->
+                    <div class="skill-item">
+                        <div class="progress-circle html-progress">
+                            <span>70%</span>
+                        </div>
+                        <h3>HTML</h3>
+                    </div>
+                    
+                    <!-- Skill 2: CSS -->
+                    <div class="skill-item">
+                        <div class="progress-circle css-progress">
+                            <span>65%</span>
+                        </div>
+                        <h3>CSS</h3>
+                    </div>
+                    
+                    <!-- Skill 3: Git -->
+                    <div class="skill-item">
+                        <div class="progress-circle git-progress">
+                            <span>50%</span>
+                        </div>
+                        <h3>Git</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--
+        ======================================
+        EDUCATION SECTION
+        ======================================
+        -->
+        <section id="education" class="education-section container">
+            <div class="education-title">
+                <h2 class="section-subtitle">
+                    <i class="fas fa-user-graduate"></i> Educational Background
+                </h2>
+                <!-- Download CV Button with Icon -->
+                <a href="https://docs.google.com/document/d/1KCSUgta84eRLgsWjwEq8-5N6ZfPCMv0W/edit?usp=sharing&ouid=116701468990779316783&rtpof=true&sd=true" download class="download-cv-btn" aria-label="Download my CV">
+                    <i class="fas fa-download download-icon"></i> Download CV
+                </a>
+            </div>
+            <div class="education-grid">
+                <!-- First Educational Entry -->
+                <div class="education-card">
+                    <div class="institution-details">
+                        <img src="Images/unicros-logo.png" alt="University Logo" class="institution-logo">
+                        <div class="text-details">
+                            <h3 class="institution-name">University of Cross River</h3>
+                            <p class="major">B.Sc in Computer Science</p>
+                            <p class="years">2019 - 2024</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Second Educational Entry -->
+                <div class="education-card">
+                    <div class="institution-details">
+                        <img src="Images/plp-logo.png" alt="PLP Logo" class="institution-logo">
+                        <div class="text-details">
+                            <h3 class="institution-name">PLP Academy</h3>
+                            <p class="major">Software Engineering</p>
+                            <p class="years">2025</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--
+        ======================================
+        INTERESTS SECTION
+        ======================================
+        -->
+        <section id="interests" class="interests-section container">
+            <div class="interests-header">
+                <h2 class="section-subtitle">
+                    <i class="fas fa-lightbulb"></i> Interests & Passions
+                </h2>
+                <blockquote class="quote-box">
+                    "In a world shaped by innovation, technology is the fundamental language we speak."
+                </blockquote>
+            </div>
+            <div class="interests-grid">
+                <div class="interest-card">
+                    <div class="interest-icon"><i class="fas fa-code"></i></div>
+                    <h3 class="interest-name">Web Development</h3>
+                    <p class="interest-description">Crafting exceptional digital experiences from frontend to backend.</p>
+                </div>
+                <div class="interest-card">
+                    <div class="interest-icon"><i class="fas fa-palette"></i></div>
+                    <h3 class="interest-name">UI/UX Design</h3>
+                    <p class="interest-description">Creating intuitive and beautiful interfaces that people love to use.</p>
+                </div>
+                <div class="interest-card">
+                    <div class="interest-icon"><i class="fas fa-mobile-alt"></i></div>
+                    <h3 class="interest-name">App Development</h3>
+                    <p class="interest-description">Building powerful mobile applications that solve real-world problems.</p>
+                </div>
+                <div class="interest-card">
+                    <div class="interest-icon"><i class="fas fa-cogs"></i></div>
+                    <h3 class="interest-name">Tech Innovations</h3>
+                    <p class="interest-description">Exploring the latest trends and tools that are shaping the future.</p>
+                </div>
+            </div>
+        </section>
+
+        <!--
+        ======================================
+        PROJECTS SECTION
+        ======================================
+        -->
+        <section id="projects" class="projects-section container">
+            <h2 class="section-subtitle">
+                <i class="fas fa-folder-open"></i> My Projects
+            </h2>
+            <div class="projects-grid">
+                <!-- Project Card 1 -->
+                <div class="project-card">
+                    <img src="Images/calendar-pic.png" alt="Project One: A simple mini calendar app">
+                    <div class="project-content">
+                        <h3>Calendar App</h3>
+                        <p>A simple mini calendar app built with vanilla JavaScript, HTML, and CSS.</p>
+                        <a href="#" class="project-btn" aria-label="View Calendar App">View Project</a>
+                    </div>
+                </div>
+
+                <!-- Project Card 2 -->
+                <div class="project-card">
+                    <img src="Images/beelicious-bytes.png" alt="Project Two: A modern restaurant website for Beelicious Bytes">
+                    <div class="project-content">
+                        <h3>Restaurant Website</h3>
+                        <p>A modern and responsive restaurant website showcasing a menu and reservation system.</p>
+                        <a href="#" class="project-btn" aria-label="View Restaurant Website">View Project</a>
+                    </div>
+                </div>
+
+                <!-- Project Card 3 -->
+                <div class="project-card">
+                    <img src="Images/mini-calculator.png" alt="Project Three: A simple but visually appealing digital calculator">
+                    <div class="project-content">
+                        <h3>Mini Calculator</h3>
+                        <p>A functional and visually appealing digital calculator for basic arithmetic operations.</p>
+                        <a href="#" class="project-btn" aria-label="View Mini Calculator">View Project</a>
+                    </div>
+                </div>
+
+                <!-- Project Card 4 -->
+                <div class="project-card">
+                    <img src="Images/cbt-pic.png" alt="Project Four: A CBT app for students to enhance learning">
+                    <div class="project-content">
+                        <h3>CBT App</h3>
+                        <p>A computer-based test application for students to practice and enhance their learning.</p>
+                        <a href="#" class="project-btn" aria-label="View CBT App">View Project</a>
+                    </div>
+                </div>
+
+                <!-- Project Card 5 -->
+                <div class="project-card">
+                    <img src="Images/to-do.png" alt="Project Five: A simple interactive to do app to help with daily schedules.">
+                    <div class="project-content">
+                        <h3>To Do App</h3>
+                        <p>A simple, interactive to-do list application to help with daily schedules and tasks.</p>
+                        <a href="#" class="project-btn" aria-label="View To Do App">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--
+        ======================================
+        PROGRAMMING LANGUAGES AND TOOLS SECTION
+        ======================================
+        -->
+        <section id="tools" class="tools-and-languages-section container">
+            <div class="tools-and-languages-container">
+                <h3 class="tools-heading">Tools and Languages I Use</h3>
+                <div class="tools-grid">
+                    <!-- HTML Card -->
+                    <div class="tool-card">
+                        <div class="tool-icon">
+                            <img src="Images/html-logo.png" alt="HTML Icon" class="tool-img">
+                        </div>
+                        <h4 class="tool-name">HTML</h4>
+                    </div>
+
+                    <!-- CSS Card -->
+                    <div class="tool-card">
+                        <div class="tool-icon">
+                            <img src="Images/css-logo.png" alt="CSS Icon" class="tool-img">
+                        </div>
+                        <h4 class="tool-name">CSS</h4>
+                    </div>
+
+                    <!-- Git Card -->
+                    <div class="tool-card">
+                        <div class="tool-icon">
+                            <img src="Images/github-logo.png" alt="Git Icon" class="tool-img">
+                        </div>
+                        <h4 class="tool-name">Github</h4>
+                    </div>
+
+                    <!-- VS Code Card -->
+                    <div class="tool-card">
+                        <div class="tool-icon">
+                            <img src="Images/vscode-logo.png" alt="VS Code Icon" class="tool-img">
+                        </div>
+                        <h4 class="tool-name">VS Code</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--
+        ======================================
+        CONTACT SECTION
+        ======================================
+        -->
+        <section id="contact" class="contact-section container">
+            <h2 class="section-subtitle">
+                <i class="fas fa-envelope-open-text"></i> Contact Me
+            </h2>
+            <div class="contact-form-card">
+                <p class="contact-paragraph">
+                    Hi there, thanks for reaching out! I can't wait to hear about your project and explore how we can work together.
+                </p>
+                <form class="contact-form" action="#" method="POST">
+                    <input type="text" name="name" placeholder="Your Name" required aria-label="Your Name">
+                    <input type="email" name="email" placeholder="Your Email" required aria-label="Your Email">
+                    <textarea name="message" placeholder="Your Message" rows="5" required aria-label="Your Message"></textarea>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+                <div class="social-media-icons">
+                    <a href="https://web.facebook.com/profile.php?id=100074316071313" target="_blank" rel="noopener noreferrer" aria-label="Facebook Profile"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/BeeTechie28/B-TeCH-Portfolio-.git" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile"><i class="fab fa-github"></i></a>
+                    <a href="mailto:izikogbobula@gmail.com" aria-label="Email Me"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 B-TeCH. All rights reserved.</p>
+        </div>
+    </footer>
+    
+    <!-- Back to top button -->
+    <a href="#top" class="back-to-top" aria-label="Back to top of the page">
+        <i class="fas fa-chevron-up"></i>
+    </a>
+</body>
+</html>
