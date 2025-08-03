@@ -44,8 +44,11 @@ Drag and drop the file into your preferred web browser.
 📞 Contact
 
 Name: Blessing Ogbobula
+
 Email: izikogbobula@gmail.com
+
 LinkedIn: Blessing Ogbobula on LinkedIn
+
 GitHub: BeeTechie28
 
 📄 License
